@@ -127,7 +127,7 @@ a:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-image: url(/assets/line.svg);
+    background-image: url(assets/line.svg);
     height: 11px;
     background-repeat: no-repeat;
     background-position: left;
