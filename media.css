@@ -1,0 +1,824 @@
+
+@media screen and (min-width: 1440px) {
+
+    .main_container {
+        padding: 0 70px;
+    }
+    /*Hero*/
+    .hero_3_lines {
+        position: absolute;
+        top: -26px;
+        left: -26px;
+        width: auto;
+    }
+
+    .hero_title {
+        font-size: 70px;
+        line-height: 88px;
+        letter-spacing: 3.2px;
+    }
+
+    .hero_title_next {
+        font-size: 75px;
+        top: -2px;
+    }
+
+
+    .hero_title_level {
+        font-size: 80px;
+    }
+
+    .hero_caption {
+        padding: 84px 22px 230px 22px;
+    }
+
+    /*Episodes*/
+    .episodes_caption {
+        margin-bottom: 45px;
+        height: 90px;
+    }
+
+    .episodes_title {
+        font-size: 64px;
+        line-height: 79.2px;
+        letter-spacing: 2.88px;
+        top: -17px;
+    }
+
+    .episodes_caption_button {
+        width: 178px;
+        height: 51px;
+    }
+
+    .episodes_caption_button a {
+        right: 1px;
+        /* Костыль для Perfect Pixel */
+        font-size: 17px;
+        line-height: 51px;
+    }
+
+    .episodes_all_items {
+        margin-bottom: 271px;
+    }
+
+    .episodes_item {
+        padding: 40px;
+        margin-bottom: 55px;
+    }
+
+    .episodes_item_img {
+        width: 389px;
+        min-width: 389px;
+        max-width: 389px;
+    }
+
+    .episodes_item_content {
+        padding-left: 53px;
+        max-width: 831px;
+    }
+
+    .episodes_item_tag {
+        font-size: 18.7px;
+        line-height: 27px;
+        padding: 0 16px;
+        top: 8px;
+    }
+
+    .episodes_number {
+        top: 25px;
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .episodes_number_id {
+        font-size: 17.7px;
+        top: 1px;
+    }
+
+    .episodes_item_title {
+        font-size: 64px;
+        line-height: 70.4px;
+        letter-spacing: 2.46px;
+        top: 14px;
+    }
+
+    .item_2 {
+        top: 5px;
+        max-height: 511px;
+    }
+
+    .item_2 .episodes_item_title {
+        max-width: 685px;
+        line-height: 70px;
+    }
+
+    .item_2 .episodes_item_tag {
+        font-size: 17px;
+        padding: 0px 21px;
+        padding-left: 16px;
+        top: 8px;
+    }
+
+    .item_3 {
+        top: 11px;
+        max-height: 512px;
+    }
+
+    .item_3 .episodes_item_title {
+        font-size: 56.8px;
+        letter-spacing: 2.66px;
+    }
+
+    .episodes_item_description {
+        font-size: 21.9px;
+        line-height: 33px;
+        top: 12px;
+    }
+
+    .episodes_item_button {
+        width: 208px;
+        height: 51px;
+
+    }
+
+    .episodes_item_button a {
+
+        font-size: 18px;
+        line-height: 51px;
+
+        left: 3px;
+        top: 1px;
+    }
+
+    /*Author*/
+    .autor_container {
+        margin-bottom: 196px;
+    }
+
+    .author_content {
+        max-width: 650px;
+        padding-right: 44px;
+        top: 148px;
+    }
+
+    .author_link {
+        width: 112px;
+    }
+
+    .author_caption {
+        font-size: 18px;
+        line-height: 27px;
+        top: 16px;
+    }
+
+    .author_title {
+        font-size: 65px;
+        line-height: 79.2px;
+        letter-spacing: 2.88px;
+        top: 14px;
+    }
+
+    .author_description {
+        font-size: 22px;
+        line-height: 33px;
+        top: 42px;
+        margin-bottom: 33px;
+    }
+
+    .author_img {
+        grid-row: span 5;
+    }
+
+    /* Subscribe */
+
+    .subscribe_container {
+        padding: 30px;
+        height: 387px;
+        margin-bottom: 200px;
+    }
+
+    .subscribe_title_box {
+        padding-left: 30px;
+        padding-right: 106px;
+    }
+
+    .subscribe_caption {
+        font-size: 18px;
+        line-height: 27px;
+        top: 30px;
+
+    }
+
+    .subscribe_title {
+        font-size: 72px;
+        line-height: 79.2px;
+        letter-spacing: 2.88px;
+        top: 28px;
+    }
+
+    .subscribe_decor {
+        left: -68px;
+        bottom: -56px;
+        width: auto;
+    }
+
+    .subscribe_form {
+        padding-left: 68px;
+        padding-top: 30px;
+    }
+
+    .subscribe_form input {
+        font-size: 24px;
+        line-height: 28.8px;
+        width: 522px;
+        height: 82px;
+        border-radius: 6px;
+        padding-left: 18px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe_form_submit input {
+        width: 87px;
+        height: 48px;
+        font-size: 14.8px;
+        line-height: 28.8px;
+        padding-left: 3px;
+        padding-top: 1px;
+    }
+
+    .subscribe_form_submit input:hover {
+        color: #118DA8;
+        background-color: #FFFFFFB2;
+        transition: 0.3s;
+    }
+
+    /* Reviews */
+
+    .reviews_container {
+        grid-template-columns: repeat(3, 423px);
+        grid-template-rows: 321px 364px;
+        gap: 16px;
+        margin-bottom: 200px;
+    }
+
+    .reviews_item {
+        padding: 50.5px;
+        border-radius: 32px;
+        gap: 20px;
+    }
+
+    .reviews_item_3 {
+        left: -1px;
+    }
+
+    .reviews_item_6 {
+        left: -1px;
+    }
+
+    .reviews_stars {
+        height: 18px;
+        margin-top: 3px;
+        padding-top: 1px;
+    }
+
+    .reviews_stars div {
+        width: 23px;
+
+    }
+
+    .reviews_comment {
+        font-size: 36px;
+        line-height: 43.2px;
+    }
+
+    .reviews_item_5 .reviews_comment {
+        font-size: 35px;
+    }
+
+    .comment_author {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+
+    .reviews_item_5 .comment_author,
+    .reviews_item_6 .comment_author {
+        font-size: 23px;
+    }
+
+    .reviews_item_6 .reviews_comment {
+        font-size: 36px;
+        line-height: 43.2px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 0 70px;
+        margin-bottom: 120px;
+    }
+
+    .footer_logo {
+        margin-bottom: 23px;
+        width: 224px;
+        height: 46px;
+    }
+
+
+    .share_icon {
+        margin-right: 6px;
+    }
+
+    .footer_link {
+        font-size: 17px;
+        line-height: 27px;
+        margin-bottom: 10px;
+    }
+
+    .footer_link_font {
+        font-size: 18px;
+    }
+
+    .footer .hero_social_item {
+        margin-right: 13px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    
+    .burger_menu {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .burger-checkbox {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .burger {
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        display: block;
+        border: none;
+        background: transparent;
+        width: 40px;
+        height: 26px;
+    }
+
+    .burger::before,
+    .burger::after {
+        content: '';
+        left: 0;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 4px;
+        border-radius: 10px;
+        background: #fff;
+    }
+
+    .burger::before {
+        top: 0;
+        box-shadow: 0 11px 0 #fff;
+        transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+    }
+
+    .burger::after {
+        bottom: 0;
+        transition: bottom .3s .15s, transform .3s;
+    }
+
+    .burger-checkbox:checked+.burger::before {
+        top: 11px;
+        transform: rotate(45deg);
+        box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
+        transition: box-shadow .15s, top .3s, transform .3s .15s;
+    }
+
+    .burger-checkbox:checked+.burger::after {
+        bottom: 11px;
+        transform: rotate(-45deg);
+        transition: bottom .3s, transform .3s .15s;
+    }
+
+    .menu-list {
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: grid;
+        gap: 12px;
+        padding: 32px 0;
+        background: #fff;
+        list-style-type: none;
+        transform: translateX(-100%);
+        transition: .3s;
+        width: 200px;
+        z-index: 1;
+    }
+
+    .menu-item {
+        display: block;
+        padding: 8px;
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .menu-item:hover {
+        background: rgba(255, 255, 255, .2)
+    }
+
+    .burger-checkbox:checked~.menu-list {
+        transform: translateX(0);
+    }
+
+    /*Hero*/
+    .hero_container {
+        flex-wrap: wrap;
+        margin-bottom: 24.94vw;
+    }
+
+    .hero_img {
+        width: auto;
+    }
+
+    .hero_content {
+        padding-left: 0;
+        width: auto;
+        margin-top: 3vw;
+    }
+
+    .hero_title {
+        font-size: 8.86vw;
+        line-height: 10.11vw;
+    }
+
+    .hero_title_next {
+        font-size: 9.20vw;
+    }
+
+    .hero_title_level {
+        font-size: 9.55vw;
+    }
+
+    /*Episodes*/
+    .episodes_caption {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3.13vw;
+        height: 6.25vw;
+        align-items: center;
+    }
+
+    .episodes_title {
+        font-size: 6.44vw;
+        top: auto;
+    }
+
+    .episodes_caption_button {
+        width: 25.36vw;
+        height: 7.54vw;
+    }
+
+    .episodes_caption_button a {
+        font-size: 2.68vw;
+        line-height: 6.54vw;
+    }
+
+    .episodes_caption_button:hover {
+        background-color: #118da87a;
+        transition: 0.3s;
+    }
+
+    .episodes_all_items {
+        margin-bottom: 18.82vw;
+    }
+
+    .episodes_item {
+        display: flex;
+        padding: 4.77vw;
+        border-radius: 32px;
+        max-height: none;
+        flex-wrap: wrap;
+    }
+
+    .episodes_item_img {
+        width: 100%;
+        max-width: none;
+        min-width: auto;
+        margin-bottom: 2vw;
+    }
+
+    .episodes_item_img img {
+        border-radius: 32px 32px 0 0;
+        width: inherit;
+    }
+
+    .episodes_item_content {
+        padding-left: 0;
+        max-width: none;
+        gap: 4vw;
+    }
+
+    .episodes_item_tag {
+        font-size: 3.3vw;
+        line-height: 4.87vw;
+    }
+
+    .episodes_number {
+        line-height: 3.87vw;
+        font-size: 3.18vw;
+    }
+
+    .episodes_number_id {
+        font-size: 3.23vw;
+    }
+
+    .episodes_item_title {
+        font-size: 6.44vw;
+        line-height: 6.88vw;
+        letter-spacing: 0.17vw;
+    }
+
+    .item_2 {
+
+        max-height: none;
+    }
+
+    .item_2 .episodes_item_title {
+
+        max-width: none;
+        line-height: 6.88vw;
+    }
+
+    .item_2 .episodes_item_tag {
+        font-size: 3.18vw;
+        padding: 0px 1.45vw;
+        padding-left: 1.11vw;
+    }
+
+    .item_3 .episodes_item_title {
+
+        font-size: 3.94vw;
+        letter-spacing: 0.18vw;
+    }
+
+    .episodes_item_description {
+
+        font-size: 3.52vw;
+        line-height: 4.29vw;
+    }
+
+    .episodes_item_button {
+        width: 25.36vw;
+        height: 6.54vw;
+    }
+
+    .episodes_item_button a {
+        font-size: 2.28vw;
+        line-height: 6.54vw;
+    }
+
+    /*Author*/
+    .autor_container {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-bottom: 13.6vw;
+    }
+
+    .author_content {
+        max-width: none;
+        padding-right: 0;
+        top: auto;
+        display: grid;
+        margin-bottom: 5vw;
+    }
+
+    .author_link {
+        width: 15.78vw;
+        transform: rotateZ(90deg);
+        margin: 0 auto;
+        grid-area: 5;
+        margin-top: 5vw;
+    }
+
+    .author_caption {
+        font-size: 3.25vw;
+        line-height: 4.87vw;
+    }
+
+    .author_title {
+        font-size: 6.51vw;
+        line-height: 11.5vw;
+        margin-bottom: 5vw;
+    }
+
+    .author_description {
+        font-size: 3.52vw;
+        line-height: 4.29vw;
+        margin-bottom: 2.29vw;
+    }
+
+    
+    .subscribe_container {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 15vw;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 5vw;
+    }
+
+    .subscribe_title_box {
+        position: relative;
+        width: 100%;
+        padding-left: 2.08vw;
+        padding-right: 7.36vw;
+
+    }
+
+    .subscribe_caption {
+        font-size: 4.05vw;
+        line-height: 8.27vw;
+        top: auto;
+
+    }
+
+    .subscribe_title {
+        font-size: 6vw;
+        line-height: 8.5vw;
+        top: auto;
+        margin-bottom: 3vw;
+    }
+
+    .subscribe_decor {
+        bottom: -34.69vw;
+        left: -5.62vw;
+    }
+
+    .subscribe_form {
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .subscribe_form input {
+        margin-bottom: 3.39vw;
+        font-size: 3.67vw;
+        width: 100%;
+    }
+
+    .subscribe_form_submit input {
+        width: 21.04vw;
+        height: 8.33vw;
+
+        font-size: 4.63vw;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .subscribe_form_submit input:hover {
+        color: #118DA8;
+        background-color: #FFFFFFB2;
+        transition: 0.3s;
+    }
+
+    /*Reviews*/
+
+    .reviews_container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        gap: 5.11vw;
+        margin-bottom: 13.9vw;
+        justify-items: center;
+    }
+
+    .reviews_item {
+        justify-items: center;
+        text-align: center;
+    }
+
+    .reviews_item_3 {
+        position: relative;
+        left: 0;
+    }
+
+    .reviews_item_6 {
+        position: relative;
+        left: 0;
+    }
+
+    .reviews_stars {
+        height: 3.35vw;
+        margin-top: 0.21vw;
+        padding-top: 0.07vw;
+        display: inline-flex;
+    }
+
+    .reviews_stars div {
+        background-image: url(assets/star.svg);
+        background-repeat: no-repeat;
+        width: 3.6vw;
+        background-size: contain;
+
+    }
+
+    .reviews_comment {
+        font-size: 4.5vw;
+        line-height: 6vw;
+        color: #FFFFFF;
+        margin-top: 3.46vw;
+    }
+
+    .reviews_item_5 .reviews_comment {
+        font-size: 4.5vw;
+    }
+
+    .comment_author {
+        font-size: 3.37vw;
+        line-height: 7vw;
+        color: #FFFFFFB2;
+        margin-top: 1.38vw;
+    }
+
+    .reviews_item_5 .comment_author,
+    .reviews_item_6 .comment_author {
+        font-size: 3.37vw;
+    }
+
+    .reviews_item_6 .reviews_comment {
+        font-size: 4.5vw;
+        line-height: 6vw;
+    }
+
+    /*Footer*/
+
+    .footer {
+        display: grid;
+        gap: 6vw;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .footer_main {
+        width: auto;
+    }
+
+    .footer_logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .share_icon {
+        margin-right: 0.42vw;
+    }
+
+    .share_icon:hover {
+        color: #118DA8;
+    }
+
+    .footer .hero_social_item {
+        margin-right: 0.90vw;
+    }
+
+    .footer_pages_1 {
+        width: auto;
+        display: flex;
+        gap: 2vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer_link {
+        font-size: 3.78vw;
+        line-height: normal;
+        margin-bottom: auto;
+    }
+
+    .footer_link:hover {
+        color: #118DA8;
+    }
+
+    .footer_link_font {
+        font-size: 3.78vw;
+    }
+
+    .footer_pages_2 {
+        width: auto;
+        display: flex;
+        gap: 2vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer_share {
+        text-align: center;
+    }
+
+}
